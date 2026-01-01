@@ -1,7 +1,7 @@
 import autocannon from "autocannon";
 
 // ===== CONFIG (Render ENV se control hoga) =====
-const TARGET_URL = process.env.TARGET_URL || "https://example.com";
+const TARGET_URL = process.env.TARGET_URL || "https://portfolio-1gpmxr8s91.edgeone.dev";
 const CONNECTIONS = Number(process.env.CONNECTIONS || 50); // default safe
 const DURATION = Number(process.env.DURATION || 30);       // seconds
 const PIPELINING = Number(process.env.PIPELINING || 10);   // safe default
