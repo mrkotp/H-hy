@@ -1,17 +1,17 @@
 {
-  "name": "hs",
+  "name": "autocannon-runner",
   "version": "1.0.0",
-  "description": "",
+  "description": "24/7 Autocannon runner for Render",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
   "dependencies": {
-    "autocannon": "^8.0.0",
-    "dotenv": "^17.2.3"
+    "autocannon": "^7.15.0",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
